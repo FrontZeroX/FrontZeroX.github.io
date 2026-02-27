@@ -1,0 +1,191 @@
+/* =====================================================
+   :root — VARIABLES GLOBALES
+===================================================== */
+:root {
+    --bg-main: #0f0f12;
+    --bg-secondary: #16161a;
+    --bg-card: #1c1c21;
+
+    --text-main: #f5f5f5;
+    --text-muted: #b3b3b3;
+
+    --accent: #e10600;
+    --accent-hover: #ff2a2a;
+}
+
+/* =====================================================
+   RESET SUAVE
+===================================================== */
+* {
+    transition: all 0.3s ease;
+}
+
+/* =====================================================
+   BODY
+===================================================== */
+body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    padding-top: 70px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* =====================================================
+   HEADER
+===================================================== */
+header {
+    background: linear-gradient(135deg, #0f0f12, #1a0000);
+    padding: 100px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+header p {
+    color: var(--text-muted);
+}
+
+/* =====================================================
+   SECTIONS
+===================================================== */
+section {
+    padding: 80px 0;
+}
+
+/* =====================================================
+   TITULOS
+===================================================== */
+h1, h2, h3, h5 {
+    color: var(--text-main);
+}
+
+/* =====================================================
+   TEXTOS
+===================================================== */
+p, .card-text, .form-label {
+    color: var(--text-muted);
+}
+
+/* =====================================================
+   NAVBAR
+===================================================== */
+.navbar {
+    background-color: #000000 !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.navbar .nav-link {
+    color: var(--text-muted) !important;
+    margin-left: 25px;
+}
+
+.navbar .nav-link:hover {
+    color: var(--accent) !important;
+}
+
+.navbar-toggler {
+    border-color: var(--accent);
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+/* =====================================================
+   CARDS
+===================================================== */
+.card {
+    background-color: var(--bg-card);
+    border: 1px solid rgba(255, 0, 0, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(225, 6, 0, 0.2);
+}
+
+/* =====================================================
+   BOTONES
+===================================================== */
+.btn-primary {
+    background-color: var(--accent);
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.btn-primary:hover {
+    background-color: var(--accent-hover);
+    box-shadow: 0 0 15px var(--accent);
+}
+
+.btn-outline-primary {
+    border: 2px solid var(--accent);
+    color: var(--accent);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--accent);
+    color: white;
+}
+
+/* =====================================================
+   FORMULARIOS
+===================================================== */
+input,
+textarea {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-main) !important;
+    border: 1px solid #2c2c34;
+}
+
+input:focus,
+textarea:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 8px rgba(225, 6, 0, 0.4);
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #666;
+}
+
+/* =====================================================
+   ICONOS TECNOLOGIAS
+===================================================== */
+.tech-icon {
+    width: 48px;
+    margin: 8px;
+    filter: grayscale(20%);
+}
+
+.tech-icon:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+/* =====================================================
+   CONTACT SECTION BG
+===================================================== */
+.bg-light {
+    background-color: var(--bg-secondary) !important;
+}
+
+/* =====================================================
+   FOOTER
+===================================================== */
+footer {
+    background-color: #000000;
+    color: var(--text-muted);
+    padding: 30px 0;
+}
+
+footer a:hover {
+    color: var(--accent) !important;
+}
