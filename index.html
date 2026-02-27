@@ -2,11 +2,14 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi Portafolio Miguel</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portafolio de Miguel Antonio Muñoz, aspirante a Frontend Developer especializado en HTML, CSS, Bootstrap y JavaScript.">
+    <title>Miguel Antonio Muñoz | Frontend Developer</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -56,11 +59,16 @@
 
     <!-- Header -->
     <header>
-        <section id="inicio">
+        <section id="inicio" class="hero text-white text-center d-flex align-items-center">
             <div class="container">
-                <img src="assets/Img/lg.png" style="max-width: 25%; height: auto;" alt="">
-                <h1 class="display-5">Hola, soy Miguel Antonio Muñoz</h1>
-                <p class="lead">Desarrollador Frontend | Freelancer</p>
+                <img src="assets/Img/lg.png" style="max-width: 20%; height: auto;" alt="">
+                <h1 class="display-4 fw-bold">Miguel Antonio Muñoz</h1>
+                <p class="lead">Aspirante a Frontend Developer especializado en HTML, CSS, Bootstrap y JavaScript.</p>
+
+                <div class="mt-4">
+                    <a href="#proyectos" class="btn btn-primary me-2">Ver Proyectos</a>
+                    <a href="#contacto" class="btn btn-outline-light">Contáctame</a>
+                </div>
             </div>
         </section>
     </header>
@@ -68,12 +76,16 @@
     <!-- Sobre mí -->
     <section id="sobre-mi">
         <div class="container">
-            <h2 class="text-center mb-4"> Algo Sobre mí</h2>
+            <h2 class="text-center mb-4">Sobre mí</h2>
             <div class="row justify-content-center">
                 <div class="col-md-8 text-center">
-                    <p> Inciando al desarrollo web (Font-end), porque me encanta el diseño de paginas. al Estilo
-                        profesional.
-                    </p>
+                    <p>Soy un desarrollador en formación apasionado por el diseño y desarrollo de interfaces web
+                        modernas.
+                        Me especializo en crear sitios web responsivos, visualmente atractivos y optimizados para una
+                        buena experiencia de usuario.
+
+                        Actualmente continúo fortaleciendo mis conocimientos en HTML, CSS, Bootstrap y JavaScript,
+                        con el objetivo de convertirme en un Frontend Developer profesional.</p>
                 </div>
             </div>
         </div>
@@ -94,115 +106,120 @@
                 <!-- Texto a la derecha -->
                 <div class="col-md-7">
                     <h2 class="mb-3">¿Por qué trabajar conmigo?</h2>
-                    <p class="text-light"> Soy totalmente confiable, adaptado y siempre con amor a prender mas del
-                        desarrollor web , además si trabaja conmigo le proporcionaré un trabajo de excelente calidad, el
-                        cual será
-                        revisado meticulosamente para que cumpla con los estándares. También si me lo permite puedo
-                        ayudarle a
-                        alcanzar sus objetivos tecnológicos de manera más rápida y efectiva.</p>
+                    <p class="text-light">Me caracterizo por ser responsable, detallista y comprometido con cada
+                        proyecto.
+                        Trabajo cuidando cada aspecto visual y funcional para entregar resultados de calidad.
 
-                    <div class="gap-3">
-                        <h5><strong>Tecnologías</strong></h5>
-                        <img src="https://skillicons.dev/icons?i=html" alt="HTML5" class="tech-icon">
-                        <img src="https://skillicons.dev/icons?i=css" alt="CSS3" class="tech-icon">
-                        <img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" class="tech-icon">
-                        <img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript" class="tech-icon">
-                    </div>
-                    <br>
+                        Me adapto fácilmente a nuevas tecnologías y metodologías,
+                        y estoy enfocado en ofrecer soluciones modernas, limpias y optimizadas.
+                        Mi objetivo es aportar valor real a cada proyecto en el que participo.</p>
 
-                    <div class="gap-3">
-                        <h5><strong>Herramientas</strong></h5>
-                        <img src="https://skillicons.dev/icons?i=vscode" alt="VScode" class="tech-icon">
-                        <img src="https://skillicons.dev/icons?i=github" alt="Github" class="tech-icon">
-                        <img src="https://skillicons.dev/icons?i=git" alt="Git" class="tech-icon">
-                    </div>
-                    <br>
+                    <div class="tech-section">
 
-                    <div class="gap-3">
-                        <h5><strong>Sistemas Operativos</strong></h5>
-                        <img src="https://skillicons.dev/icons?i=windows" alt="Windows" class="tech-icon">
-                        <img src="https://skillicons.dev/icons?i=linux" alt="Linux" class="tech-icon">
+                        <!-- Tecnologías -->
+                        <div class="gap-3 mb-4">
+                            <h5 class="section-title"><strong>Tecnologías</strong></h5>
+                            <div class="tech-container">
+                                <img src="https://skillicons.dev/icons?i=html" alt="HTML5" class="tech-icon">
+                                <img src="https://skillicons.dev/icons?i=css" alt="CSS3" class="tech-icon">
+                                <img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" class="tech-icon">
+                                <img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript" class="tech-icon">
+                            </div>
+                        </div>
+
+                        <!-- Diseño y UI -->
+                        <div class="gap-3">
+                            <h5 class="section-title"><strong>Diseño y UI</strong></h5>
+                            <div class="tech-container">
+                                <img src="https://skillicons.dev/icons?i=figma" alt="Figma" class="tech-icon">
+                            </div>
+                        </div>
+
+                        <!-- Herramientas -->
+                        <div class="gap-3 mb-4">
+                            <h5 class="section-title"><strong>Herramientas</strong></h5>
+                            <div class="tech-container">
+                                <img src="https://skillicons.dev/icons?i=vscode" alt="VSCode" class="tech-icon">
+                                <img src="https://skillicons.dev/icons?i=github" alt="GitHub" class="tech-icon">
+                                <img src="https://skillicons.dev/icons?i=git" alt="Git" class="tech-icon">
+                            </div>
+                        </div>
+
+                        <!-- Sistemas Operativos -->
+                        <div class="gap-3 mb-4">
+                            <h5 class="section-title"><strong>Sistemas Operativos</strong></h5>
+                            <div class="tech-container">
+                                <img src="https://skillicons.dev/icons?i=windows" alt="Windows" class="tech-icon">
+                                <img src="https://skillicons.dev/icons?i=linux" alt="Linux" class="tech-icon">
+                            </div>
+                        </div>
 
                     </div>
                 </div>
 
-                <!-- Herramientas -->
-                <div class="mt-4">
-
-                </div>
             </div>
         </div>
     </section>
 
     <!-- Proyectos -->
-    <section id="proyectos">
+    <section id="proyectos" class="py-5">
         <div class="container">
             <h2 class="text-center mb-5">Mis Proyectos</h2>
             <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="https://via.placeholder.com/600x300" class="card-img-top" alt="Proyecto 1">
+
+                <div class="col-md-6">
+                    <div class="card h-100 shadow">
                         <div class="card-body">
-                            <p class="card-text">Lesly Para Ayuda!! </p>
-                            <a href="https://www.fundacionleslyyhermanos.org/" class="btn btn-primary"> Ver más <svg
-                                    xmlns="Fundacion Lesly y hermanos" width="16" height="16" fill="currentColor"
-                                    class="bi bi-cursor-fill" viewBox="0 0 16 16">
-                                    <path
-                                        d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z" />
-                                </svg></a>
+                            <h5 class="card-title text-white">Fundación Lesly y Hermanos</h5>
+                            <p class="card-text">
+                                Sitio web institucional desarrollado con HTML5, CSS3 y Bootstrap.
+                                Diseño responsive y estructura moderna.
+                            </p>
+                            <a href="https://www.fundacionleslyyhermanos.org/" class="btn btn-primary" target="_blank">
+                                Ver Proyecto
+                            </a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="https://via.placeholder.com/600x300" class="card-img-top" alt="Proyecto 2">
+                <div class="col-md-6">
+                    <div class="card h-100 shadow">
                         <div class="card-body">
-                            <p class="card-text">Nuestra segunda Pagian Web.</p>
-                            <a href="#" class="btn btn-primary"> Ver más <svg xmlns="http://www.w3.org/2000/svg"
-                                    width="16" height="16" fill="currentColor" class="bi bi-cursor-fill"
-                                    viewBox="0 0 16 16">
-                                    <path
-                                        d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z" />
-                                </svg></a>
+                            <h5 class="card-title text-white">Portafolio Personal</h5>
+                            <p class="card-text">
+                                Portafolio web desarrollado con Bootstrap y diseño personalizado,
+                                enfocado en demostrar habilidades frontend.
+                            </p>
+                            <a href="https://tusitio.netlify.app" class="btn btn-primary" target="_blank">
+                                Ver Proyecto
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="https://via.placeholder.com/600x300" class="card-img-top" alt="Proyecto 3">
-                        <div class="card-body">
-                            <p class="card-text"> BPO Emproceso !!</p>
-                            <a href="https://pruebas01web.netlify.app/" class="btn btn-primary">Ver más <svg xmlns="Bpo"
-                                    width="16" height="16" fill="currentColor" class="bi bi-cursor-fill"
-                                    viewBox="0 0 16 16">
-                                    <path
-                                        d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z" />
-                                </svg></a>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
 
     <!-- Contacto -->
-    <section id="contacto">
-        <section id="contact" class="py-5 bg-light d-flex justify-content-center">
-            <div class="container">
-                <div class="row mb-4 text-center">
-                    <div class="col">
-                        <h2 class="fw-bold">Contacto</h2>
-                    </div>
+    <section id="contacto" class="py-5 bg-light d-flex justify-content-center">
+        <div class="container">
+            <div class="row mb-4 text-center">
+                <div class="col">
+                    <h2 class="fw-bold">Contacto</h2>
+                    <p class="text-center">¿Tienes un proyecto en mente o deseas trabajar conmigo?
+                        Estoy disponible para nuevas oportunidades y colaboraciones.</p>
                 </div>
+            </div>
 
-                <!-- FORMULARIO + DATOS -->
-                <section class="py-5">
-                    <div class="container">
-                        <div class="row g-4">
+            <!-- FORMULARIO + DATOS -->
+            <section class="py-5">
+                <div class="container">
+                    <div class="row g-4">
 
-                            <!-- FORMULARIO -->
-                            <div class="col-md-6">
+                        <!-- FORMULARIO -->
+                        <div class="col-md-6">
+                            <form>
                                 <div class="mb-3">
                                     <label class="form-label"><strong>Nombre</strong></label>
                                     <input type="text" name="nombre" class="form-control" required>
@@ -226,40 +243,40 @@
                                 <button type="submit" class="btn btn-primary">
                                     Enviar mensaje
                                 </button>
-                                </form>
-                            </div>
+                            </form>
+                        </div>
 
-                            <!-- DATOS -->
-                            <div class="col-md-6">
-                                <h5 class="fw-bold mb-3">
-                                    Información de contacto
-                                </h5>
+                        <!-- DATOS -->
+                        <div class="col-md-6">
+                            <h5 class="fw-bold mb-3">
+                                Información de contacto
+                            </h5>
 
-                                <!-- DIRECCIÓN -->
-                                <p><i class="bi bi-geo-alt-fill me-2"></i> República Dominicana</p>
+                            <!-- DIRECCIÓN -->
+                            <p class="text-white"><i class="bi bi-geo-alt-fill me-2"></i>República Dominicana</p>
 
-                                <!-- TELÉFONO -->
-                                <a href="tel:+18298396551" class="d-block mb-2 text-decoration-none text-white">
-                                    <i class="bi bi-telephone-fill me-2"></i>
-                                    +1 (829) 839-6551
-                                </a>
+                            <!-- TELÉFONO -->
+                            <a href="tel:+18298396551" class="d-block mb-2 text-decoration-none text-white">
+                                <i class="bi bi-telephone-fill me-2"></i>
+                                +1 (829) 839-6551
+                            </a>
 
-                                <!-- CORREO -->
-                                <a href="mailto:miguelatnoniomunoz03@gmail.com"
-                                    class="d-block text-decoration-none text-white">
-                                    <i class="bi bi-envelope-fill me-2"></i>
-                                    miguelatnoniomunoz03@gmail.com
-                                </a>
+                            <!-- CORREO -->
+                            <a href="mailto:miguelatnoniomunoz03@gmail.com"
+                                class="d-block text-decoration-none text-white">
+                                <i class="bi bi-envelope-fill me-2"></i>
+                                miguelatnoniomunoz03@gmail.com
+                            </a>
 
-                                <br>
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAA9CAMAAAAXmf6VAAABDlBMVEUALWLOESb///8AF1jMAAnAwMvtv78AKGBDTnbTRUvNBCAAD1U1Qm7RNz7LAADIyNHvyMjDxMqWmpDe4OTz8/RudX8tOjMAFEi2ub+Tl6MbLkBPV0KQlZDP0NQ0PGGHjJpdYW9fZX8gME4GHDvYjY7EFgDDRUTp7+RxnXBnbHK0sZHfh2WePBTRmI9GlFKQsoWpxqw2iESavZhxd5NKUmLe2sbiwrLgrLFyqHcAdxu5079DW35aaokAcAphjFa01buRc3vNSlSMVmewj5uQAA9knmWHtY/z4eGDlKq9xLjJZmy2Y14/ZCDksqratakgYAOlPTe5VlvPUkHDZFKcAADPiXvMOB/DcnfHlZfav8IfpouzAAABFklEQVRYhe3Vx1bCQBiG4fEXAgRCHREQwRKNNcVCAhpRKbFhxXb/N6IcN1l+i3Gj/7vJbOY5WX0jBFQqTbEy+hwUZjPOOOOMM844438In4fK5uK4kU9AiSRWYYaWyuXK7FvUsAShyYXqYq3eWGrCNwjGl1vtn8PKakU5LkmurZfMjU3r+6gapy1ru7qzu7dvO+px1zs4PDrutPyg6yrHvXFPnsjaqXRDRzlun/UN7dw3284v4K7Xv0hcDoZ1Jxwpx6NgHJlR8qoXjq6V4ze39p02mdw/BI+mclw+6c8v0+nrm/6OXiEBzkSR6COypEWfPlEBHCSB7VveiP9RLottqcCWWc/E8XQKfAYYZ5xxxhlnnPF/hn8BPMs2UOUZlAYAAAAASUVORK5CYII="
-                                    height="40" />
-                            </div>
+                            <br>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAA9CAMAAAAXmf6VAAABDlBMVEUALWLOESb///8AF1jMAAnAwMvtv78AKGBDTnbTRUvNBCAAD1U1Qm7RNz7LAADIyNHvyMjDxMqWmpDe4OTz8/RudX8tOjMAFEi2ub+Tl6MbLkBPV0KQlZDP0NQ0PGGHjJpdYW9fZX8gME4GHDvYjY7EFgDDRUTp7+RxnXBnbHK0sZHfh2WePBTRmI9GlFKQsoWpxqw2iESavZhxd5NKUmLe2sbiwrLgrLFyqHcAdxu5079DW35aaokAcAphjFa01buRc3vNSlSMVmewj5uQAA9knmWHtY/z4eGDlKq9xLjJZmy2Y14/ZCDksqratakgYAOlPTe5VlvPUkHDZFKcAADPiXvMOB/DcnfHlZfav8IfpouzAAABFklEQVRYhe3Vx1bCQBiG4fEXAgRCHREQwRKNNcVCAhpRKbFhxXb/N6IcN1l+i3Gj/7vJbOY5WX0jBFQqTbEy+hwUZjPOOOOMM844438In4fK5uK4kU9AiSRWYYaWyuXK7FvUsAShyYXqYq3eWGrCNwjGl1vtn8PKakU5LkmurZfMjU3r+6gapy1ru7qzu7dvO+px1zs4PDrutPyg6yrHvXFPnsjaqXRDRzlun/UN7dw3284v4K7Xv0hcDoZ1Jxwpx6NgHJlR8qoXjq6V4ze39p02mdw/BI+mclw+6c8v0+nrm/6OXiEBzkSR6COypEWfPlEBHCSB7VveiP9RLottqcCWWc/E8XQKfAYYZ5xxxhlnnPF/hn8BPMs2UOUZlAYAAAAASUVORK5CYII="
+                                height="40" />
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+        </div>
+        </div>
+    </section>
     </section>
 
     <!-- Footer -->
@@ -270,12 +287,13 @@
                 <a href="https://github.com/FrontZeroX" class="text-light me-3" target="_blank">
                     <i class="bi bi-github" style="font-size: 1.5rem;"></i>
                 </a>
+
                 <a href="https://www.linkedin.com/in/miguel-antonio-mu%C3%B1oz-059b0139a/" class="text-light me-3"
                     target="_blank">
                     <i class="bi bi-linkedin" style="font-size: 1.5rem;"></i>
                 </a>
-                </a>
-                <a href="" mailto:miguelatnoniomunoz03@gmail.com" class="text-light">
+
+                <a href="mailto:miguelatnoniomunoz03@gmail.com" class="text-light">
                     <i class="bi bi-envelope" style="font-size: 1.5rem;"></i>
                 </a>
             </div>
