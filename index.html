@@ -192,44 +192,73 @@
             <div class="container">
                 <div class="row mb-4 text-center">
                     <div class="col">
-                        <h2 class="fw-bold">Contáctame</h2>
+                        <h2 class="fw-bold">Contacto</h2>
                     </div>
                 </div>
 
-                <!-- Tarjeta centrada -->
-                <div class="row justify-content-center">
-                    <div class="col-md-6 col-lg-5">
-                        <div class="card shadow-sm text-center">
-                            <div class="card-body">
-                                <h5 class="card-title mb-3">Información Personal !!</h5>
-                                <p><i class="bi bi-envelope-fill me-2"></i> miguelatnoniomunoz03@gmail.com</p>
-                                <p><i class="bi bi-telephone-fill me-2"></i> 829-839-6551</p>
-                                <p><i class="bi bi-geo-alt-fill me-2"></i> Dominican Republic
+                <!-- FORMULARIO + DATOS -->
+                <section class="py-5">
+                    <div class="container">
+                        <div class="row g-4">
 
-                                <div class="mt-4">
-                                    <h5><strong>Herramientas</strong></h5>
-                                    <div class="d-flex flex-wrap gap-3 mt-2">
-                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAA9CAMAAAAXmf6VAAABDlBMVEUALWLOESb///8AF1jMAAnAwMvtv78AKGBDTnbTRUvNBCAAD1U1Qm7RNz7LAADIyNHvyMjDxMqWmpDe4OTz8/RudX8tOjMAFEi2ub+Tl6MbLkBPV0KQlZDP0NQ0PGGHjJpdYW9fZX8gME4GHDvYjY7EFgDDRUTp7+RxnXBnbHK0sZHfh2WePBTRmI9GlFKQsoWpxqw2iESavZhxd5NKUmLe2sbiwrLgrLFyqHcAdxu5079DW35aaokAcAphjFa01buRc3vNSlSMVmewj5uQAA9knmWHtY/z4eGDlKq9xLjJZmy2Y14/ZCDksqratakgYAOlPTe5VlvPUkHDZFKcAADPiXvMOB/DcnfHlZfav8IfpouzAAABFklEQVRYhe3Vx1bCQBiG4fEXAgRCHREQwRKNNcVCAhpRKbFhxXb/N6IcN1l+i3Gj/7vJbOY5WX0jBFQqTbEy+hwUZjPOOOOMM844438In4fK5uK4kU9AiSRWYYaWyuXK7FvUsAShyYXqYq3eWGrCNwjGl1vtn8PKakU5LkmurZfMjU3r+6gapy1ru7qzu7dvO+px1zs4PDrutPyg6yrHvXFPnsjaqXRDRzlun/UN7dw3284v4K7Xv0hcDoZ1Jxwpx6NgHJlR8qoXjq6V4ze39p02mdw/BI+mclw+6c8v0+nrm/6OXiEBzkSR6COypEWfPlEBHCSB7VveiP9RLottqcCWWc/E8XQKfAYYZ5xxxhlnnPF/hn8BPMs2UOUZlAYAAAAASUVORK5CYII="
-                                            height="40" />
-                                        </p>
-
-                                        <div class="mt-4">
-                                            <a href="https://github.com/FrontZeroX"
-                                                class="btn btn-outline-dark btn-sm me-2">
-                                                <i class="bi bi-github"></i> GitHub
-                                            </a>
-
-                                            <a href="https://www.linkedin.com/in/miguel-antonio-mu%C3%B1oz-059b0139a/"
-                                                class="btn btn-outline-primary btn-sm">
-                                                <i class="bi bi-linkedin"></i> LinkedIn
-                                            </a>
-                                        </div>
-                                    </div>
+                            <!-- FORMULARIO -->
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label"><strong>Nombre</strong></label>
+                                    <input type="text" name="nombre" class="form-control" required>
                                 </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label"><strong>Correo electrónico</strong></label>
+                                    <input type="email" name="email" class="form-control" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label"><strong>Asunto</strong></label>
+                                    <input type="text" name="asunto" class="form-control" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label"><strong>Mensaje</strong></label>
+                                    <textarea name="mensaje" class="form-control" rows="4" required></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">
+                                    Enviar mensaje
+                                </button>
+                                </form>
+                            </div>
+
+                            <!-- DATOS -->
+                            <div class="col-md-6">
+                                <h5 class="fw-bold mb-3">
+                                    Información de contacto
+                                </h5>
+
+                                <!-- DIRECCIÓN -->
+                                <p><i class="bi bi-geo-alt-fill me-2"></i> República Dominicana</p>
+
+                                <!-- TELÉFONO -->
+                                <a href="tel:+18298396551" class="d-block mb-2 text-decoration-none text-white">
+                                    <i class="bi bi-telephone-fill me-2"></i>
+                                    +1 (829) 839-6551
+                                </a>
+
+                                <!-- CORREO -->
+                                <a href="mailto:miguelatnoniomunoz03@gmail.com"
+                                    class="d-block text-decoration-none text-white">
+                                    <i class="bi bi-envelope-fill me-2"></i>
+                                    miguelatnoniomunoz03@gmail.com
+                                </a>
+
+                                <br>
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAA9CAMAAAAXmf6VAAABDlBMVEUALWLOESb///8AF1jMAAnAwMvtv78AKGBDTnbTRUvNBCAAD1U1Qm7RNz7LAADIyNHvyMjDxMqWmpDe4OTz8/RudX8tOjMAFEi2ub+Tl6MbLkBPV0KQlZDP0NQ0PGGHjJpdYW9fZX8gME4GHDvYjY7EFgDDRUTp7+RxnXBnbHK0sZHfh2WePBTRmI9GlFKQsoWpxqw2iESavZhxd5NKUmLe2sbiwrLgrLFyqHcAdxu5079DW35aaokAcAphjFa01buRc3vNSlSMVmewj5uQAA9knmWHtY/z4eGDlKq9xLjJZmy2Y14/ZCDksqratakgYAOlPTe5VlvPUkHDZFKcAADPiXvMOB/DcnfHlZfav8IfpouzAAABFklEQVRYhe3Vx1bCQBiG4fEXAgRCHREQwRKNNcVCAhpRKbFhxXb/N6IcN1l+i3Gj/7vJbOY5WX0jBFQqTbEy+hwUZjPOOOOMM844438In4fK5uK4kU9AiSRWYYaWyuXK7FvUsAShyYXqYq3eWGrCNwjGl1vtn8PKakU5LkmurZfMjU3r+6gapy1ru7qzu7dvO+px1zs4PDrutPyg6yrHvXFPnsjaqXRDRzlun/UN7dw3284v4K7Xv0hcDoZ1Jxwpx6NgHJlR8qoXjq6V4ze39p02mdw/BI+mclw+6c8v0+nrm/6OXiEBzkSR6COypEWfPlEBHCSB7VveiP9RLottqcCWWc/E8XQKfAYYZ5xxxhlnnPF/hn8BPMs2UOUZlAYAAAAASUVORK5CYII="
+                                    height="40" />
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
     </section>
 

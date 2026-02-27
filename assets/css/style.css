@@ -29,7 +29,7 @@ body {
 /* =====================================================
    header — ENCABEZADO PRINCIPAL
    ===================================================== */
-header {
+   header {
     background-color: var(--bg-darker);
     /* Fondo del header */
     padding: 35px 0;
