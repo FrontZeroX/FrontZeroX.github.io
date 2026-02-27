@@ -1,0 +1,177 @@
+/* =====================================================
+   :root — VARIABLES GLOBALES (COLORES)
+   ===================================================== */
+:root {
+    --bg-dark: #000000;
+    /* Fondo oscuro */
+    --bg-darker: #0d0d0d;
+    /* Fondo más oscuro */
+    --text-light: #e4e4e4;
+    /* Texto claro */
+    --text-muted: #f0e9e9;
+    /* Texto secundario */
+    --accent: #c90000;
+    /* Color principal */
+}
+   
+/* =====================================================
+   body — CUERPO GENERAL DE LA PÁGINA
+   ===================================================== */
+body {
+    color: #000000;
+    /* Color del texto */
+    padding-top: 60px;
+    /* Espacio para navbar */
+    background-color: #0b0505;
+    --bs-secondary-coloo
+}
+
+/* =====================================================
+   header — ENCABEZADO PRINCIPAL
+   ===================================================== */
+header {
+    background-color: var(--bg-darker);
+    /* Fondo del header */
+    padding: 80px 0;
+    /* Espaciado vertical */
+    text-align: center;
+    /* Texto centrado */
+}
+
+/* =====================================================
+   section — SECCIONES DE CONTENIDO
+   ===================================================== */
+section {
+    padding: 60px 0;
+    /* Espaciado */
+}
+
+/* =====================================================
+   h1, h2, h3, h5 — TÍTULOS
+   ===================================================== */
+h1,
+h2,
+h3,
+h5 {
+    color: #fcfcfc;
+    /* Color títulos */
+}
+
+/* =====================================================
+   p, .card-text, .form-label — TEXTO GENERAL
+   ===================================================== */
+p,
+.card-text,
+.form-label {
+    color: white;
+    /* Color texto */
+}
+
+/* =====================================================
+   .navbar — BARRA DE NAVEGACIÓN
+   ===================================================== */
+.navbar {
+    background-color: #000000 !important;
+    /* Fondo navbar */
+}
+
+/* =====================================================
+   .navbar .nav-link — ENLACES DEL MENÚ
+   ===================================================== */
+.navbar .nav-link {
+    color: var(--text-muted) !important;
+    /* Color enlace */
+    background-color: #000000;
+    /* Fondo enlace */
+    margin-inline-start: 40px;
+    /* Separación */
+}
+
+/* =====================================================
+   .navbar .nav-link:hover — HOVER DEL MENÚ
+   ===================================================== */
+.navbar .nav-link:hover {
+    color: #faf5f5 !important;
+    /* Hover enlace */
+}
+
+/* =====================================================
+   .bg-light, .card — TARJETAS Y CONTENEDORES
+   ===================================================== */
+.bg-light,
+.card {
+    background-color: #00000063 !important;
+    /* Fondo */
+    color: #000000;
+    /* Texto */
+    border: 3px solid #df0707;
+    /* Borde */
+}
+
+/* =====================================================
+   .card:hover — EFECTO HOVER DE TARJETA
+   ===================================================== */
+.card:hover {
+    transform: translateY(-5px);
+    /* Movimiento */
+    transition: transform 0.5s;
+    /* Animación */
+    box-shadow: 0 0px 12px rgba(245, 3, 3, 0.05);
+    /* Sombra */
+}
+
+/* =====================================================
+   .btn-primary — BOTÓN PRINCIPAL
+   ===================================================== */
+.btn-primary {
+    background-color: var(--accent);
+    /* Fondo botón */
+    border-color: var(--accent);
+    /* Borde botón */
+}
+
+/* =====================================================
+   .btn-primary:hover — HOVER DEL BOTÓN
+   ===================================================== */
+.btn-primary:hover {
+    background-color: #000000;
+    /* Fondo hover */
+    border-color: #000000;
+    /* Borde hover */
+}
+
+/* =====================================================
+   input, textarea — CAMPOS DE FORMULARIO
+   ===================================================== */
+input,
+textarea {
+    background-color: #b80b0b !important;
+    /* Fondo input */
+    color: var(--text-light) !important;
+    /* Texto input */
+    border: 1px solid #444;
+    /* Borde */
+}
+
+/* =====================================================
+   input::placeholder, textarea::placeholder — PLACEHOLDER
+   ===================================================== */
+input::placeholder,
+textarea::placeholder {
+    color: #cf0000;
+    /* Texto guía */
+}
+
+/* =====================================================
+   footer — PIE DE PÁGINA
+   ===================================================== */
+footer {
+    background-color: #000000;
+    /* Fondo footer */
+    color: #001a01;
+    /* Texto footer */
+    text-align: center;
+    /* Centrado */
+    padding: 20px 0;
+    /* Espaciado */
+}
