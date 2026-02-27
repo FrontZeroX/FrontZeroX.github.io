@@ -220,31 +220,35 @@
 
                         <!-- FORMULARIO -->
                         <div class="col-md-6">
-                            <form>
+                            <form id="contactForm">
+
                                 <div class="mb-3">
-                                    <label class="form-label"><strong>Nombre</strong></label>
+                                    <label><strong>Nombre</strong></label>
                                     <input type="text" name="nombre" class="form-control" required>
                                 </div>
-
+                            
                                 <div class="mb-3">
-                                    <label class="form-label"><strong>Correo electrónico</strong></label>
+                                    <label><strong>Correo electrónico</strong></label>
                                     <input type="email" name="email" class="form-control" required>
                                 </div>
-
+                            
                                 <div class="mb-3">
-                                    <label class="form-label"><strong>Asunto</strong></label>
+                                    <label><strong>Asunto</strong></label>
                                     <input type="text" name="asunto" class="form-control" required>
                                 </div>
-
+                            
                                 <div class="mb-3">
-                                    <label class="form-label"><strong>Mensaje</strong></label>
+                                    <label><strong>Mensaje</strong></label>
                                     <textarea name="mensaje" class="form-control" rows="4" required></textarea>
                                 </div>
-
-                                <button type="submit" class="btn btn-primary">
+                            
+                                <button type="submit" class="btn btn-danger">
                                     Enviar mensaje
                                 </button>
+                            
+                                <div id="respuesta" class="mt-3"></div>
                             </form>
+                            
                         </div>
 
                         <!-- DATOS -->
@@ -303,6 +307,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    <script src="js/main.js"></script>
 </body>
 
 </html>
